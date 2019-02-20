@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="B18B3F5F-4681-03E2-423B-E544BC40C566">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:59:59 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8DAA2028-E056-7434-7DAC-D8AAB89571F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF7EEE30-FEF6-6DA7-39F2-EF73C7F42AC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

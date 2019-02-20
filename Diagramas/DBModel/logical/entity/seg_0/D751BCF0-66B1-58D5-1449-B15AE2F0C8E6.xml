@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D751BCF0-66B1-58D5-1449-B15AE2F0C8E6" name="Sucursal">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:32:32 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SUC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Sucursal" id="F784A376-7E0D-3AE4-7988-5E5E5B576E0A">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:34:22 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="CF45C327-2D8F-74C2-07EB-F266E43B5BB9">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:34:59 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ubicacion" id="A9FC6FC4-A358-6E1E-CD15-6480E2F6E3B6">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:35:42 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9382A16-9F92-FC1A-C12A-A8F9DCE27589" name="Sucursal PK">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:34:50 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F784A376-7E0D-3AE4-7988-5E5E5B576E0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

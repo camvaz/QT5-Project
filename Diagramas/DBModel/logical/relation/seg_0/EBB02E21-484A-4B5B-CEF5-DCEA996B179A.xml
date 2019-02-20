@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Sucursal_Ventas" directorySegmentName="seg_0" id="EBB02E21-484A-4B5B-CEF5-DCEA996B179A">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 23:00:34 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<sourcePk>D9382A16-9F92-FC1A-C12A-A8F9DCE27589</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D751BCF0-66B1-58D5-1449-B15AE2F0C8E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8DAA2028-E056-7434-7DAC-D8AAB89571F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

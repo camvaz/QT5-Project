@@ -1,0 +1,11 @@
+------------------------SMARTPHONE ONLINE STORE---------------------------
+CONCEPTO:
+Nombre: Moto G6		Precio: $11000
+SUCURSAL: 31 Poniente
+Cliente: Victor Campos
+Tiempo aproximado de llegada:  16 minutos.
+	COMPRA EFECTUADA DESDE SMARTPHONE ONLINE STORE VERSION DE ESCRITORIO
+	TODOS LOS DERECHOS RESERVADOS. HECHO EN Qt CREATOR VERSION 5.11.1.
+SOFTWARE REALIZADO POR:
+	VICTOR MANUEL CAMPOS VAZQUEZ.
+------------------------GRACIAS POR SU COMPRA-------------------------------

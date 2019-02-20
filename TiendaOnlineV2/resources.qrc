@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/celulares">
+        <file>img/celulares/GooglePixel3.jpg</file>
+        <file>img/celulares/iPhoneXR.png</file>
+        <file>img/celulares/iPhoneXS.webp</file>
+        <file>img/celulares/lgv40tenq.jpg</file>
+        <file>img/celulares/MotoG6.jpg</file>
+        <file>img/celulares/OnePlus6T.jpg</file>
+        <file>img/celulares/ssgNote9.png</file>
+    </qresource>
+    <qresource prefix="/Icons">
+        <file>img/png/001-money-bag.png</file>
+        <file>img/png/002-deal.png</file>
+        <file>img/png/003-group.png</file>
+        <file>img/png/004-businessman.png</file>
+        <file>img/png/005-settings.png</file>
+        <file>img/png/006-shopping-cart.png</file>
+        <file>img/png/007-package.png</file>
+        <file>img/png/008-bar-chart.png</file>
+        <file>img/png/009-checklist.png</file>
+        <file>img/png/010-teamwork.png</file>
+        <file>img/png/011-suitcase.png</file>
+        <file>img/png/012-idea.png</file>
+        <file>img/png/013-conversation.png</file>
+        <file>img/png/014-id-card.png</file>
+        <file>img/png/015-search.png</file>
+        <file>img/png/016-padlock.png</file>
+        <file>img/png/017-stopwatch.png</file>
+        <file>img/png/018-key.png</file>
+        <file>img/png/019-image.png</file>
+        <file>img/png/020-businesswoman.png</file>
+        <file>img/png/021-archive.png</file>
+        <file>img/png/022-envelope.png</file>
+        <file>img/png/023-earth-globe.png</file>
+        <file>img/png/024-layers.png</file>
+    </qresource>
+    <qresource prefix="/grafo">
+        <file>img/sucursales/grafo.jpg</file>
+        <file>img/sucursales/grafo3.jpg</file>
+    </qresource>
+</RCC>

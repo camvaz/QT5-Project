@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF7EEE30-FEF6-6DA7-39F2-EF73C7F42AC3" name="Celular">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:32:53 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CEL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Celular" id="4C3ACBB8-533B-A696-2DBF-DBD9ACB98168">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:40:50 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="EE8C1AAA-F655-14F2-8AD8-CB4FCD06BDBC">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:41:06 UTC</createdTime>
+<comment>																							</comment>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Camara" id="7A5B8355-075C-0213-8115-9F617E91CF4B">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:42:53 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Carga" id="CE423D3E-1FD6-B529-35DA-7391C195E7CE">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:43:09 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dimensiones" id="6CBD2C4D-8C4B-81E7-5E05-6265272D64CC">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:43:28 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imagen" id="614DE662-5782-B125-C8E5-02779466FD80">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:43:42 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Memoria" id="85203E1F-8BFF-509C-79B3-A96B59376D47">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:43:53 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Os" id="E66CCD85-5E0C-E125-090A-2FBFB0F5795D">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:44:10 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pantalla" id="E7EDBC1F-9777-FA23-EE3C-3C8244571874">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:44:23 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Peso" id="472B28FE-AE7F-77B1-0145-177C902CBF7D">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:44:34 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Resolucion" id="5DB3D795-9FB7-8FED-7402-84D9199E9603">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:44:46 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tecnologia" id="F4F0936D-7B98-99A9-E72B-D2D4CC71C342">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:45:00 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Inventario" id="75D01965-1968-6CFB-CDAE-30C07F7FEF48">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:58:08 UTC</createdTime>
+<generatorID>AA644F35-23D5-5AD9-C1AD-378469550872</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<referedAttribute>9F382739-2DCB-026E-FB20-320E260A0F7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCA3B3BF-49E8-CA23-63D4-A3F4E15F7678" name="Celular PK">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:41:03 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C3ACBB8-533B-A696-2DBF-DBD9ACB98168</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

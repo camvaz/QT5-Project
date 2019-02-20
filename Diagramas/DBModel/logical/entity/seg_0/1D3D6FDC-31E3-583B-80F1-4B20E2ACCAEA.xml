@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D3D6FDC-31E3-583B-80F1-4B20E2ACCAEA" name="Inventario">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:33:03 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>INV</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Inventario" id="9F382739-2DCB-026E-FB20-320E260A0F7D">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:54:52 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="noModelos" id="D06BD1CB-8FBE-FF82-B82B-861F33501ADF">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:56:44 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sucursal" id="F4F44F1A-39BE-88F6-3DFB-A725143A6736">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:57:36 UTC</createdTime>
+<generatorID>9923923C-80CE-5AC4-F86C-601857B53748</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<referedAttribute>F784A376-7E0D-3AE4-7988-5E5E5B576E0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53C1D73F-7F4C-4EF8-03FC-F8378E0425DE" name="Inventario PK">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:55:30 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F382739-2DCB-026E-FB20-320E260A0F7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

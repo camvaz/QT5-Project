@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Inventario_Celular" directorySegmentName="seg_0" id="AA644F35-23D5-5AD9-C1AD-378469550872">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:58:08 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="316DFB44-046D-9FD0-496D-61A453494BFC" value="true"/>
+</engineerTo>
+<sourcePk>53C1D73F-7F4C-4EF8-03FC-F8378E0425DE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D3D6FDC-31E3-583B-80F1-4B20E2ACCAEA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF7EEE30-FEF6-6DA7-39F2-EF73C7F42AC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

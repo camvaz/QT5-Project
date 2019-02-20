@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DBModel" id="F303DB49-A41B-61E7-D3FC-EDD80A3BAA8D" version="3.5">
+<createdBy>CamVaz</createdBy>
+<createdTime>2018-11-18 21:32:16 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F303DB49-A41B-61E7-D3FC-EDD80A3BAA8D</designId>
+</OSDM_Design>
